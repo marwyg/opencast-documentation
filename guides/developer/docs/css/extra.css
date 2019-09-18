@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Using open sans, because its the main font of opencast */
+body {
+    font-family: 'Open Sans';
+}
+
+/* Color of top bar */
+.navbar {
+    background-color: #388ed6;
+    background-image: linear-gradient(to bottom,#388ed6,#2075b1);
+    height: 50px;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,.3);
+}
+
+/* Background color of sidebar */
+.wm-toc-pane {
+    background-color: #24425c;
+    padding-top: 75px
+}
+
+/* Sidebar - text color of entries */
+.wm-toctree a, .wm-toctree a:visited, .wm-toctree a:hover, .wm-toctree a:focus {
+    color: #fafafa;
+}
+
+/* Sidebar - color of active element */
+.wm-toc-li.wm-current, .wm-toc-li.wm-current:hover {
+    background-color: #388ed6;
+    font-weight: bold;
+}
+
+/* Sidebar - text color of folder entries */
+.wm-toc-text {
+    color: #fafafa;
+}
+
+/* Sidebar - background color of text while hover */
+.wm-toc-li:hover {
+    background-color: #388ed6;
+}
+
+/* Navigation links like "next" and "previous" */
+.wm-article-nav > a, .wm-article-nav > a:visited {
+    color: #337ab7;
+}
+
+/* Navigation links like "next" and "previous" on hover */
+.wm-article-nav > a:hover, .wm-article-nav > a:focus {
+    color: #24425c;
+}
+
+/* Color of normal links */
+.wm-page-content a {
+    color: #337ab7;
+}
+
+/* Positioning of the opencast vector logo in the top left corner */
+.wm-top-logo {
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* Restyling of the text in the title like "Administration Guide", "User Guide",... */
+.wm-top-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Repositioning of the footer "theme by bla bla" */
+footer.wm-page-content {
+    max-width: none;
+    border-top-style: solid;
+    border-top-width: thin;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Color of inline code */
+code {
+    color: #E74C3C;
+}
