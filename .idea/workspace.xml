@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10d197bf-dfcd-42c1-b009-aae6c1e22cdd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/guides/.markdownlint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/acl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/asset-upload.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/event-filters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/images/assetUpload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/images/assetUploadExistingEvent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/images/assetUploadExistingOptions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/images/assetUploadSource.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/images/assetUploadSummary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/languages.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/admin-ui/thumbnails.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/asset-manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/basic.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/database.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/encoding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/external-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/https/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/https/migration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/https/nginx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/https/opencast.only.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/inbox.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/listproviders.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/load.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/log.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/message-broker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/metadata.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/multi.tenancy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/oaipmh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security.aai.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security.cas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security.ldap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security.user.moodle.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security.user.sakai.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/security1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/stream-security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/testing_form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/user-statistics.and.privacy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/configuration/workflow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/css/extra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/debs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/docker-local.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/multiple-servers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/rpm-fedora.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/rpm-rhel-sl-centos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/source-linux.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/installation/source-macosx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/javascript/extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/adaptivestreaming-wowza.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/atomrss.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/awss3archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/awss3distribution.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/execute.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/liveschedule.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/ltimodule.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/mediamodule.configuration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/paella.player.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/player.configuration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/player.matomo.tracking.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/player.url.parameter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/searchindex/elasticsearch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/searchindex/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/searchindex/solr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/searchindex/solr1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/searchindex/solr2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/searchindex/solr3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/stream-security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/textextraction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/timelinepreviews.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/videoeditor.architecture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/videoeditor.setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/videosegmentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/watsontranscripts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/waveform.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/modules/youtubepublication.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/opencast-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/releasenotes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/upgrade.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/version-support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/Concat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/add-catalog-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/analyze-tracks-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/analyzeaudio-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/animate-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/asset-delete-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/attach-watson-transcription-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/cleanup-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/clone-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/comment-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/compose-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/composite-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/concat-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/configure-by-dcterm-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/copy-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/coverimage-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/defaults-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/demux-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/duplicate-event-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/editor-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/encode-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/error-resolution-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/execute-many-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/execute-once-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/export-wf-properties-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/extracttext-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/failing-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/httpnotify-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/image-convert-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/image-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/imagetovideo-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/import-wf-properties-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/incident-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/include-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/ingestdownload-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/inspect-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/log-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/move-storage-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/multiencode-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/normalizeaudio-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/notification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/partial-import-woh-figure-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/partial-import-woh-figure-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/partial-import-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/postmediapackage-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/prepareav-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/probe-resolution-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/process-smil-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/publish-aws-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/publish-configure-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/publish-engage-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/publish-oaipmh-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/publish-youtube-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/republish-oaipmh-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/retract-aws-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/retract-configure-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/retract-engage-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/retract-oaipmh-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/retract-youtube-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/retry-strategies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/segmentpreviews-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/segmentvideo-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/select-streams-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/send-email-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/series-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/silence-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/snapshot-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/start-watson-transcription-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/start-workflow-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/tag-by-dcterm-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/tag-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/theme-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/timelinepreviews-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/waveform-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/waveform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/docs/workflowoperationhandlers/zip-woh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/admin/mkdocs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/agents-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/authentication.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/authorization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/base-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/events-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/glossary.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/groups-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/media/img/figure_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/media/img/figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/security-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/series-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/api/workflow-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/asset-manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/code-style.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/committer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/css/extra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/css/style-guide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/decision-making/consensus-building.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/decision-making/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/decision-making/lazy-consensus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/decision-making/voting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/development-environment-docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/development-environment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/development-process.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/documentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/files/Admin-UI-Style-Guide-v3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Bold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Bold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-BoldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-ExtraBold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-ExtraBold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-ExtraBold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-ExtraBoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-ExtraBoldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-ExtraBoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Italic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Italic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Light-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Light-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-LightItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Semibold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Semibold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-Semibold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-SemiboldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-SemiboldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/OpenSans-SemiboldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/governance.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/alerts-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/buttons-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/buttons-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/buttons-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/buttons-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/configuration-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/configuration_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/dashboard-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/dashboard_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/dropdown-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/dropdown-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/dropdown-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/edit-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/events-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/events_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/forms-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/forms-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/forms-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/HTML5_Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_3d_effects.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_connectivity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_css3_styling.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_device_access.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_multimedia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_offline_storage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_perfintegration.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/html/html5_semantics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/indicators-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/de_DE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/el_GR.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/en_US.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/es_ES.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/fr_FR.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/gl_ES.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/ja_JP.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/nl_NL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/no_NO.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/pl_PL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/sv_SE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/zh_CN.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/lang/zh_TW.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-types-single.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-types-step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/modal-types-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/more-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/navigation-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/navigation-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/play-icon-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/play-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/plus-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/preview-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/recordings-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/recordings_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/remove-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/sass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/servers-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/servers_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/spacing-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/system-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/system_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/table-view-structure-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/table-view-structure-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/table-view-structure-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/time-icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/typeface-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/user-group-on_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/user-group_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/video_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/view-structure-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/view-structure-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/view-structure-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/view-structure-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/img/youtube_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/infrastructure/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/infrastructure/maven-repository.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/infrastructure/nexus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/infrastructure/notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/installation/source-linux.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/javascript/extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/localization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/development.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/alerts-indicators.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/buttons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/color-palette.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/dropdowns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/forms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/icons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/modals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/navigation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/references.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/spacing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/typeface.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/admin-ui/style/view-structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/capture-agent/capture-agent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/capture-agent/testcases.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/oaipmh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/architecture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/core.reference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/plugin.development.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/storage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/testing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/player/testing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/modules/stream-security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/opencast-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/packaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/proposal-log.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/qa-coordinator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/release-manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/reviewing-and-merging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/scheduler.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/docs/security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/developer/mkdocs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/accesspolicies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/advanced/capture-agent-access.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/advanced/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/advanced/offload-s3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/advanced/restore.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/advanced/role-based-visibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/asset-manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/configure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/css/extra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/glossary.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/groups.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/i18n.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/javascript/extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/login.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/confirm_events.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/offload_s3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/offload_s3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/offload_task.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/restore_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/restore_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/restore_task.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/select_events.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/videoeditor_actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/videoeditor_player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/videoeditor_preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/videoeditor_timeline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/media/img/videoeditor_toolbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/opencast-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/processing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/searchandfilter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/series.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/systems.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/themes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/users.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/docs/videoeditor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/user/mkdocs.yml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1R0iRQDN6GQfvfDwIIJwEKRWSBR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10d197bf-dfcd-42c1-b009-aae6c1e22cdd" name="Default Changelist" comment="" />
+      <created>1568810405278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568810405278</updated>
+      <workItem from="1568810406803" duration="992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
