@@ -101,7 +101,7 @@ what you are doing!</p>
 <li>
 <p>Update the media packages:</p>
 <pre><code>find . -type f -name "*.xml" -exec \
-  sed -i 's/http\:\/\/oc-presentation\.example\.com\:80/https:\/\/oc-presentation.example.com/g' {} +
+  sed -i 's/http\:\/\/oc-presentation\.example\.com\:80/https:\/\/oc-presentation.example.com/g' {} +`
 </code></pre>
 </li>
 <li>
@@ -123,15 +123,13 @@ UPDATE opencast.oc_search
 </code></pre>
 </li>
 <li>
-<p>Remove the search service's Solr index. It usually is located at <code>solr-indexes/search</code> but its location really
-   depends on <code>org.opencastproject.solr.dir</code> and <code>org.opencastproject.search.solr.dir</code></p>
+<p>Rebuild the Elasticsearch indices using the REST endpoint listed in the docs:
+   https://admin.opencast.example.com/docs.html?path=/admin-ng/index</p>
 </li>
+<li>Remove the search service's Solr index. It usually is located at <code>solr-indexes/search</code> but its location really
+   depends on <code>org.opencastproject.solr.dir</code> and <code>org.opencastproject.search.solr.dir</code></li>
 <li>Rebuild the Solr indices by re-starting your Opencast node running the search service (usually presentation).</li>
-<li>Rebuild the Elasticsearch indices using the REST endpoint listed in the docs:
-   https://admin.opencast.example.com/docs.html?path=/admin-ng/index</li>
 </ol>
-<p>Note: If the solr index does not repopulate by itself please check if your nodes are still in maintenance mode and
-reactiveate them.</p>
 
   <br>
     
@@ -168,7 +166,7 @@ reactiveate them.</p>
 
 <footer class="col-md-12 wm-page-content">
       <p>
-        <a href="https://github.com/opencast/opencast/edit/develop/docs/guides/admin/docs/configuration/https/migration.md"><i class="fa fa-github"></i>
+        <a href="https://github.com/opencast/opencast/tree/develop/docs/guides/admin/docs/edit/master/docs/configuration/https/migration.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
       </p>
   <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>

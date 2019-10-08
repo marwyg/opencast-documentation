@@ -295,7 +295,7 @@ The filters <code>start</code> and <code>technical_start</code> expect the follo
 </tr>
 <tr>
 <td align="left"><code>review_status</code></td>
-<td align="left">By whether the event has been reviewed and approved or not [DEPRECATED]</td>
+<td align="left">By whether the event has been reviewed and approved or not</td>
 </tr>
 <tr>
 <td align="left"><code>workflow_state</code></td>
@@ -303,7 +303,7 @@ The filters <code>start</code> and <code>technical_start</code> expect the follo
 </tr>
 <tr>
 <td align="left"><code>scheduling_status</code></td>
-<td align="left">By the current scheduling status of the event [DEPRECATED]</td>
+<td align="left">By the current scheduling status of the event</td>
 </tr>
 <tr>
 <td align="left"><code>series_name</code></td>
@@ -707,23 +707,13 @@ Please note that <code>duration</code> is a mandatory field when creating multip
 ]
 </code></pre>
 
-<p>scheduling a single event:</p>
+<p>scheduling (<code>rrule</code> is optional and can be used to schedule multiple events):</p>
 <pre><code>{
   &quot;agent_id&quot;: &quot;ca24&quot;,
   &quot;start&quot;: &quot;2018-03-27T16:00:00Z&quot;,
   &quot;end&quot;: &quot;2018-03-27T19:00:00Z&quot;,
   &quot;inputs&quot;: [&quot;default&quot;],
-}
-</code></pre>
-
-<p>scheduling multiple events:</p>
-<pre><code>{
-  &quot;agent_id&quot;: &quot;ca24&quot;,
-  &quot;start&quot;: &quot;2019-05-20T16:00:00Z&quot;,
-  &quot;end&quot;: &quot;2019-06-10T19:00:00Z&quot;,
-  &quot;inputs&quot;: [&quot;default&quot;],
-  &quot;rrule&quot;:&quot;FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=16;BYMINUTE=0&quot;,
-  &quot;duration&quot;:1080000;
+  &quot;rrule&quot;:&quot;FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=16;BYMINUTE=0&quot;
 }
 </code></pre>
 
@@ -1528,8 +1518,6 @@ configuration of series metadata catalogs. For more details about this mechanism
 <th align="left">Form Parameters</th>
 <th align="left">Type</th>
 <th align="left">Description</th>
-<th align="left">Default</th>
-<th align="left">Version</th>
 </tr>
 </thead>
 <tbody>
@@ -1537,15 +1525,6 @@ configuration of series metadata catalogs. For more details about this mechanism
 <td align="left"><code>scheduling</code></td>
 <td align="left"><code>string</code></td>
 <td align="left">The scheduling information.</td>
-<td align="left"><span class="required">Required</span></td>
-<td align="left">1.1.0</td>
-</tr>
-<tr>
-<td align="left"><code>allowConflict</code></td>
-<td align="left"><code>boolean</code></td>
-<td align="left">Allow conflicts when updating scheduling.</td>
-<td align="left">false</td>
-<td align="left">1.2.0</td>
 </tr>
 </tbody>
 </table>
@@ -1573,14 +1552,6 @@ configuration of series metadata catalogs. For more details about this mechanism
   }
 ]
 </code></pre>
-
-<p><code>allowConflict</code> allows the schedule to be updated without checking for conflicts.
-To allow conflicts (<code>true</code>) the call <strong>MUST</strong> be made with a user that has an <em>Administrative Role</em>.</p>
-<p>If not handled properly this will likely cause two or more events to be
-scheduled on a particular capture agent at the same time, which will then
-cause a capture failure for all but one of the events.</p>
-<p>The person making this call and allowing conflicts to exist, will bear the
-responsibility of resolving the conflicts that might result.</p>
 
   <br>
     
@@ -1617,7 +1588,7 @@ responsibility of resolving the conflicts that might result.</p>
 
 <footer class="col-md-12 wm-page-content">
       <p>
-        <a href="https://github.com/opencast/opencast/edit/develop/docs/guides/developer/docs/api/events-api.md"><i class="fa fa-github"></i>
+        <a href="https://github.com/opencast/opencast/tree/develop/docs/guides/developer/docs/edit/master/docs/api/events-api.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
       </p>
   <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>

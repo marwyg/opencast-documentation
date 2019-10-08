@@ -91,9 +91,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 elements and store them to the working file repository. The external element URI's are then rewritten to the stored
 working file repository URI.</p>
 <p>In case of having external element URI's showing to a different Opencast working file repository, it's also possible to
-delete them after downloading it by activating the "delete-external" option.
-Additionally the "source-flavors" and "source-tags" option can be used to specifiy exactly, which external URI's should
-be downloaded.</p>
+delete them after downloading it by activating the "delete-external" option.</p>
 <p>This operation is originally implemented to get rid of remaining files on ingest working file repositories.</p>
 <h2 id="parameter-table">Parameter Table</h2>
 <table>
@@ -112,24 +110,6 @@ be downloaded.</p>
 <td>Whether to try to delete external working file repository URIs.</td>
 <td>FALSE</td>
 </tr>
-<tr>
-<td>source-flavors</td>
-<td>"dublincore/episode"</td>
-<td>List of flavors (seperated by comma), elements matching a flavor will be downloaded</td>
-<td>"*/*"</td>
-</tr>
-<tr>
-<td>source-tags</td>
-<td>"archive"</td>
-<td>List of tags (seperated by comma), elements matching a tag will be downloaded</td>
-<td>"" (empty list)</td>
-</tr>
-<tr>
-<td>tags-and-flavors</td>
-<td>"true"</td>
-<td>Whether both, a tag and a flavor, must match or if one is sufficient</td>
-<td>FALSE</td>
-</tr>
 </tbody>
 </table>
 <h2 id="operation-example">Operation Example</h2>
@@ -139,9 +119,6 @@ be downloaded.</p>
   description="Downloads external artifacts to the working file repository"&gt;
   &lt;configurations&gt;
     &lt;configuration key="delete-external"&gt;true&lt;/configuration&gt;
-    &lt;configuration key="source-flavors"&gt;dublincore/episode&lt;/configuration&gt;
-    &lt;configuration key="source-tags"&gt;archive&lt;/configuration&gt;
-    &lt;configuration key="tags-and-flavors"&gt;true&lt;/configuration&gt;
   &lt;/configurations&gt;
 &lt;/operation&gt;
 </code></pre>
@@ -181,7 +158,7 @@ be downloaded.</p>
 
 <footer class="col-md-12 wm-page-content">
       <p>
-        <a href="https://github.com/opencast/opencast/edit/develop/docs/guides/admin/docs/workflowoperationhandlers/ingestdownload-woh.md"><i class="fa fa-github"></i>
+        <a href="https://github.com/opencast/opencast/tree/develop/docs/guides/admin/docs/edit/master/docs/workflowoperationhandlers/ingestdownload-woh.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
       </p>
   <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>

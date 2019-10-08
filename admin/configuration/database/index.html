@@ -162,13 +162,6 @@ run the client with the user you created in the previous step (<code>-u opencast
 <p>Alternatively, you can import the script directly from the command line:</p>
 <pre><code>mysql -u opencast -p opencast &lt; …/docs/scripts/ddl/mysql5.sql
 </code></pre>
-<p>Now, ensure the MariaDB <a href="https://mariadb.com/kb/en/library/server-system-variables/"><code>wait_timeout</code></a> in <code>mariadb.cnf</code>
-or <code>mysql.cnf</code> is bigger than <code>org.opencastproject.db.jdbc.pool.max.idle.time</code> in Opencast's <code>custom.properties</code>.
-Raising the <code>max_connections</code> in <code>mariadb.cnf</code> parameter might be required, too, depending on your installation's size.
-Reload the configuration into MariaDB, then connect to your database as user <code>opencast</code> and verify the values by
-executing <code>SHOW  VARIABLES LIKE %_timeout;</code>. A <code>MySQLNonTransientConnectionException</code>, for instance “A PooledConnection
-that has already signaled a Connection error is still in use”, in your Opencast logs might indicate a problem with this
-configuration.</p>
 <h3 id="step-3-configure-opencast">Step 3: Configure Opencast</h3>
 <p>The following changes must be made in <code>…/etc/custom.properties</code> (<code>/etc/opencast/custom.properties</code> in a package
 installation).</p>
@@ -240,7 +233,7 @@ org.opencastproject.db.jdbc.pass=opencast_password
 
 <footer class="col-md-12 wm-page-content">
       <p>
-        <a href="https://github.com/opencast/opencast/edit/develop/docs/guides/admin/docs/configuration/database.md"><i class="fa fa-github"></i>
+        <a href="https://github.com/opencast/opencast/tree/develop/docs/guides/admin/docs/edit/master/docs/configuration/database.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
       </p>
   <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>

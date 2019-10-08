@@ -33,7 +33,7 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Publish Engage Workflow Operation", url: "#_top", children: [
+          {title: "PublishEngageWorkflowOperation", url: "#_top", children: [
               {title: "Description", url: "#description" },
               {title: "Parameter Table", url: "#parameter-table" },
               {title: "Operation Example", url: "#operation-example" },
@@ -85,10 +85,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="publish-engage-workflow-operation">Publish Engage Workflow Operation</h1>
-<p>ID: <code>publish-engage</code></p>
+    <h1 id="publishengageworkflowoperation">PublishEngageWorkflowOperation</h1>
 <h2 id="description">Description</h2>
-<p>The publish-engage operation will bring your media to the engage distribution channels (streaming, progressive
+<p>The <code>PublishEngageWorkflowOperation</code> will bring your media to the engage distribution channels (streaming, progressive
 download, …)</p>
 <h2 id="parameter-table">Parameter Table</h2>
 <table>
@@ -101,15 +100,15 @@ download, …)</p>
 <tbody>
 <tr>
 <td>check-availability</td>
-<td>Check if the media is reachable</td>
+<td>Check if the media if reachable</td>
 </tr>
 <tr>
 <td>download-source-flavors</td>
-<td>Distribute any mediapackage elements with one of these (comma separated) flavors to download</td>
+<td>Specifies which media should be published for download</td>
 </tr>
 <tr>
 <td>download-source-tags</td>
-<td>Distribute any mediapackage elements with one of these (comma separated) tags to download</td>
+<td>Specifies which media should be published for download</td>
 </tr>
 <tr>
 <td>download-target-subflavors</td>
@@ -117,7 +116,7 @@ download, …)</p>
 </tr>
 <tr>
 <td>download-target-tags</td>
-<td>Add tags (comma separated) to published media</td>
+<td>Modify tags of published media</td>
 </tr>
 <tr>
 <td>strategy</td>
@@ -141,7 +140,7 @@ download, …)</p>
 </tr>
 <tr>
 <td>streaming-target-tags</td>
-<td>Add tags (comma separated) to published media</td>
+<td>Modify tags of published media</td>
 </tr>
 <tr>
 <td>streaming-target-subflavors</td>
@@ -158,18 +157,18 @@ download, …)</p>
 </tbody>
 </table>
 <h2 id="operation-example">Operation Example</h2>
-<pre><code class="xml">&lt;operation
-    id=&quot;publish-engage&quot;
-    max-attempts=&quot;2&quot;
-    fail-on-error=&quot;true&quot;
-    exception-handler-workflow=&quot;error&quot;
-    description=&quot;Distribute and publish to engage player&quot;&gt;
-  &lt;configurations&gt;
-    &lt;configuration key=&quot;download-source-tags&quot;&gt;engage,atom,rss&lt;/configuration&gt;
-    &lt;configuration key=&quot;streaming-source-tags&quot;&gt;engage&lt;/configuration&gt;
-    &lt;configuration key=&quot;check-availability&quot;&gt;true&lt;/configuration&gt;
-    &lt;configuration key=&quot;strategy&quot;&gt;merge&lt;/configuration&gt;
-  &lt;/configurations&gt;
+<pre><code>&lt;operation
+    id="publish-engage"
+    max-attempts="2"
+    fail-on-error="true"
+    exception-handler-workflow="error"
+    description="Distribute and publish to engage player"&gt;
+    &lt;configurations&gt;
+        &lt;configuration key="download-source-tags"&gt;engage,atom,rss&lt;/configuration&gt;
+        &lt;configuration key="streaming-source-tags"&gt;engage&lt;/configuration&gt;
+        &lt;configuration key="check-availability"&gt;true&lt;/configuration&gt;
+        &lt;configuration key="strategy"&gt;merge&lt;/configuration&gt;
+    &lt;/configurations&gt;
 &lt;/operation&gt;
 </code></pre>
 
@@ -208,7 +207,7 @@ download, …)</p>
 
 <footer class="col-md-12 wm-page-content">
       <p>
-        <a href="https://github.com/opencast/opencast/edit/develop/docs/guides/admin/docs/workflowoperationhandlers/publish-engage-woh.md"><i class="fa fa-github"></i>
+        <a href="https://github.com/opencast/opencast/tree/develop/docs/guides/admin/docs/edit/master/docs/workflowoperationhandlers/publish-engage-woh.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
       </p>
   <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>

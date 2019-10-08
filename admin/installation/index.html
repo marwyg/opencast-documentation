@@ -36,6 +36,7 @@
           {title: "Install Opencast", url: "#_top", children: [
               {title: "Installation from Source", url: "#installation-from-source" },
               {title: "Installation from Repository", url: "#installation-from-repository" },
+              {title: "Installation via Script", url: "#installation-via-script" },
               {title: "Installation with Docker", url: "#installation-with-docker" },
               {title: "Installation Across Multiple Servers", url: "#installation-across-multiple-servers" },
           ]},
@@ -101,7 +102,7 @@ work on all Unix-like systems.</p>
 </ul>
 <p>Building on most other Unix-like operating systems should be very much alike.</p>
 <h2 id="installation-from-repository">Installation from Repository</h2>
-<p>There is an RPM repository available for some operating systems. It provides packages containing pre-configured and
+<p>There are package repositories available for multiple operating systems. It provides packages containing pre-configured and
 pre-built Opencast installations.</p>
 <ul>
 <li><a href="rpm-rhel-sl-centos/">RedHat Enterprise Linux</a></li>
@@ -110,6 +111,12 @@ pre-built Opencast installations.</p>
 <li><a href="rpm-fedora/">Fedora</a></li>
 <li><a href="debs/">Debian</a></li>
 <li><a href="debs/">Ubuntu</a></li>
+</ul>
+<h2 id="installation-via-script">Installation via Script</h2>
+<p>We provide configuration scripts to install and configure Opencast automatically.  These scripts rely on the
+packages from the repository above.</p>
+<ul>
+<li><a href="ansible/">Ansible</a></li>
 </ul>
 <h2 id="installation-with-docker">Installation with Docker</h2>
 <p>You can also use Docker to quickly install or test Opencast. There are multiple Docker images available for installing
@@ -160,7 +167,7 @@ still watch recordings unaffected since the presentation layer is running on a s
 
 <footer class="col-md-12 wm-page-content">
       <p>
-        <a href="https://github.com/opencast/opencast/edit/develop/docs/guides/admin/docs/installation/index.md"><i class="fa fa-github"></i>
+        <a href="https://github.com/opencast/opencast/tree/develop/docs/guides/admin/docs/edit/master/docs/installation/index.md"><i class="fa fa-github"></i>
 Edit on GitHub</a>
       </p>
   <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
